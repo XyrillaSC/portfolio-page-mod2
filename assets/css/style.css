@@ -155,14 +155,20 @@ section p {
 
 .one-port-box {
     background-color: rgb(202, 207, 133);
-    border: 5px solid rgb(140, 186, 128);
+    border: 10px solid rgb(140, 186, 128);
+    padding: 10px;
     margin: 10px;
+    min-width: 70%;
+    display: flex;
+    justify-content: center;
 }
 
 .port-box {
     background-color: rgb(202, 207, 133);
-    border: 5px solid rgb(140, 186, 128);
+    border: 10px solid rgb(140, 186, 128);
+    padding: 10px;
     margin: 10px;
+    max-width: 40%;
 }
 
 figure p {
@@ -175,6 +181,10 @@ footer p, footer a {
     background-color: rgb(202, 207, 133);
     border: 5px solid rgb(140, 186, 128);
     min-width: 225px;
+}
+figure img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 @media (min-width:560px) {
