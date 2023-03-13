@@ -8,6 +8,7 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* basic element selectors */
@@ -41,7 +42,7 @@ footer {
 
 /* name plate styling */
 .name-plate {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 50px;
     background-color: rgb(202, 207, 133);
     border: 10px solid rgb(140, 186, 128);
@@ -70,7 +71,7 @@ footer {
 }
 
 .list-style {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 35px;
     font-weight: bolder;
     list-style: none;
@@ -111,14 +112,14 @@ footer {
 }
 
 section h2 {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-weight: bold;
     font-size: 45px;
     margin: 10px;
 }
 
 section p {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-weight: bold;
     font-size: 20px;
     margin: 10px;
@@ -188,7 +189,7 @@ section p {
 /* footer styling */
 footer p,
 footer a {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     text-align: center;
     background-color: rgb(202, 207, 133);
     border: 5px solid rgb(140, 186, 128);
@@ -201,6 +202,7 @@ figure img {
     max-height: 100%;
     max-width: 100%;
 }
+
 figure p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
