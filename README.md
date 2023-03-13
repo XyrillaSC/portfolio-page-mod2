@@ -12,7 +12,8 @@ README Template provided by [https://coding-boot-camp.github.io/full-stack/githu
 
 ## Screenshot
 
-![screenshot of deployed website]()
+![screenshot of deployed website](assets/images/xyrillasc.github.io_portfolio-page-mod2_(Nest%20Hub%20Max).png)
 
 ## Link to Deployed Page
 
+[Skylar's Portfolio Page](https://xyrillasc.github.io/portfolio-page-mod2/)
