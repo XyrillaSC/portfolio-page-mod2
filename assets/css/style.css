@@ -31,7 +31,7 @@ header {
 
 footer {
     background-color: rgb(255, 205, 213);
-    height: 200px;
+    height: fit-content;
     display: flex;
     gap: 30px;
     flex-flow: row wrap;
@@ -224,6 +224,10 @@ figure p {
     figure p {
         font-weight: bolder;
         font-size: 35px;
+    }
+
+    footer {
+        height: 200px;
     }
 
     footer p,
