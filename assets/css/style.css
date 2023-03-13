@@ -7,8 +7,10 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
+/* basic element selectors */
 body {
     background-color: var(--main-bg-color);
     display: flex;
@@ -24,7 +26,6 @@ header {
     justify-content: center;
     align-items: center;
     border-bottom: 10px solid rgb(255, 185, 185);
-    /* width: auto; */
 }
 
 footer {
@@ -37,6 +38,8 @@ footer {
     align-items: center;
     border-top: 10px solid rgb(255, 185, 185);
 }
+
+/* name plate styling */
 .name-plate {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
@@ -54,6 +57,7 @@ footer {
     font-size: 60px;
 }
 
+/* nav styling */
 .navbar-style {
     display: flex;
     flex-flow: row wrap;
@@ -74,8 +78,6 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    /* padding: 10px; */
-    
 }
 
 .nav-list-item {
@@ -94,6 +96,7 @@ footer {
     transform: scale(1.1, 1.1);
 }
 
+/* Box above main styling */
 .bio-box {
     display: flex;
     flex-flow: column;
@@ -103,8 +106,15 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     border-right: 10px solid rgb(140, 186, 128);
-    border-left: 10px solid rgb(140, 186, 128); 
+    border-left: 10px solid rgb(140, 186, 128);
     padding: 10px;
+}
+
+section h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 10px;
 }
 
 section p {
@@ -112,8 +122,10 @@ section p {
     font-weight: bold;
     font-size: 20px;
     margin: 10px;
+    max-width: 70%;
 }
 
+/* profile picture styling */
 .xy-prof {
     height: 250px;
     width: 250px;
@@ -123,6 +135,7 @@ section p {
     margin-bottom: 25px;
 }
 
+/* Text box below the main */
 .lower-box {
     display: flex;
     flex-flow: row wrap;
@@ -131,13 +144,13 @@ section p {
     margin-left: 10%;
     margin-right: 10%;
     border-right: 10px solid rgb(140, 186, 128);
-    border-left: 10px solid rgb(140, 186, 128); 
+    border-left: 10px solid rgb(140, 186, 128);
     padding: 10px;
 }
 
+/* main section styling */
 .main-back-box {
     background-color: rgb(255, 205, 213);
-    /* height: 200px; */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -153,6 +166,7 @@ section p {
     flex-flow: row wrap;
 }
 
+/* boxes to contain portfolio items */
 .one-port-box {
     background-color: rgb(202, 207, 133);
     border: 10px solid rgb(140, 186, 128);
@@ -171,24 +185,41 @@ section p {
     max-width: 40%;
 }
 
-figure p {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-footer p, footer a {
+/* footer styling */
+footer p,
+footer a {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     background-color: rgb(202, 207, 133);
     border: 5px solid rgb(140, 186, 128);
     min-width: 225px;
+    padding: 5px;
 }
+
+/* figure box and text styling */
 figure img {
     max-height: 100%;
     max-width: 100%;
 }
+figure p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
 
+/* media query for responsiveness */
 @media (min-width:560px) {
     .main-back-box a {
         width: 50%
+    }
+
+    figure p {
+        font-weight: bolder;
+        font-size: 35px;
+    }
+
+    footer p,
+    footer a {
+        font-size: 20px;
     }
 }
