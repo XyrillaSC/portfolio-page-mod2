@@ -97,6 +97,10 @@ footer {
     transform: scale(1.1, 1.1);
 }
 
+ul a {
+    color: black;
+}
+
 /* Box above main styling */
 .bio-box {
     display: flex;
@@ -195,6 +199,8 @@ footer a {
     border: 5px solid rgb(140, 186, 128);
     min-width: 225px;
     padding: 5px;
+    color: black;
+    font-weight: bold;
 }
 
 /* figure box and text styling */
